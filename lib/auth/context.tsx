@@ -62,8 +62,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       };
     }
 
-    // 2. Private On-Device Session Authentication
+    // 2. Check for Google OAuth Session Cookie
     try {
+      if (typeof document !== "undefined") {
+        const match = document.cookie.match(/(?:^|; )ritvya_user_session=([^;]*)/);
+        if (match) {
+          const googleUser = JSON.parse(decodeURIComponent(match[1]));
+          if (googleUser && googleUser.email) {
+            setUser({
+              id: googleUser.id || "google-user",
+              email: googleUser.email,
+              name: googleUser.name,
+              isDemo: false,
+            });
+            localStorage.setItem(LOCAL_USER_KEY, JSON.stringify(googleUser));
+            setIsLoading(false);
+            return;
+          }
+        }
+      }
+
+      // 3. Private On-Device Session Authentication
       const savedUser = localStorage.getItem(LOCAL_USER_KEY);
       if (savedUser) {
         setUser(JSON.parse(savedUser));
@@ -104,6 +123,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setUser(null);
     try {
       localStorage.removeItem(LOCAL_USER_KEY);
+      if (typeof document !== "undefined") {
+        document.cookie = "ritvya_user_session=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+      }
     } catch {}
   };
 

@@ -94,7 +94,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "This will permanently remove all your locally saved health entries, cycles, and chat history. This action cannot be undone.",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "Understand",
     "understand.commonChipsLabel": "Common Associated Observations (Click to add)",
     "understand.chip.pelvicCramping": "Pelvic cramping",
     "understand.chip.irregularCycle": "Irregular cycle timing",
@@ -228,7 +227,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "यह आपके सभी सहेजे गए स्वास्थ्य रिकॉर्ड और बातचीत को स्थायी रूप से मिटा देगा।",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "लक्षण समझें",
     "understand.commonChipsLabel": "सामान्य संबंधित लक्षण (जोड़ने के लिए क्लिक करें)",
     "understand.chip.pelvicCramping": "पेल्विक में ऐंठन (Pelvic cramping)",
     "understand.chip.irregularCycle": "अनियमित मासिक धर्म (Irregular cycle)",
@@ -362,7 +360,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "ಇದು ನಿಮ್ಮ ಎಲ್ಲಾ ಉಳಿಸಿದ ಆರೋಗ್ಯ ದಾಖಲೆಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ.",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "ಲಕ್ಷಣ ತಿಳಿಯಿರಿ",
     "understand.commonChipsLabel": "ಸಾಮಾನ್ಯ ಸಂಬಂಧಿತ ಲಕ್ಷಣಗಳು (ಸೇರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ)",
     "understand.chip.pelvicCramping": "ಹೊಟ್ಟೆಯ ಕೆಳಭಾಗದ ನೋವು (Pelvic cramping)",
     "understand.chip.irregularCycle": "ಋತುಚಕ್ರದ ಏರುಪೇರು (Irregular cycle)",
@@ -496,7 +493,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "ఇది మీ సేవ్ చేసిన రికార్డులన్నింటినీ శాశ్వతంగా తొలగిస్తుంది.",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "లక్షణాలు తెలుసుకోండి",
     "understand.commonChipsLabel": "సాధారణ సంబంధిత లక్షణాలు (జోడించడానికి క్లిక్ చేయండి)",
     "understand.chip.pelvicCramping": "కడుపు క్రింది భాగంలో నొప్పి (Pelvic cramping)",
     "understand.chip.irregularCycle": "క్రమరహిత ఋతు చక్రం (Irregular cycle)",
@@ -630,7 +626,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "இது உங்கள் சேமிக்கப்பட்ட அனைத்து தகவல்களையும் நிரந்தரமாக நீக்கும்.",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "அறிகுறிகள் அறிக",
     "understand.commonChipsLabel": "பொதுவான தொடர்புடைய அறிகுறிகள் (சேர்க்க கிளிக் செய்க)",
     "understand.chip.pelvicCramping": "அடிவயிற்று வலி (Pelvic cramping)",
     "understand.chip.irregularCycle": "மாதவிடாய் சுழற்சி சீரற்ற தன்மை (Irregular cycle)",
@@ -764,7 +759,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "ഇത് നിങ്ങളുടെ എല്ലാ വിവരങ്ങളും ശാശ്വതമായി ഇല്ലാതാക്കും.",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "ലക്ഷണങ്ങൾ അറിയുക",
     "understand.commonChipsLabel": "സാധാരണ അനുബന്ധ ലക്ഷണങ്ങൾ (ചേർക്കാൻ ക്ലിക്ക് ചെയ്യുക)",
     "understand.chip.pelvicCramping": "അടിവയറ്റിലെ വേദന (Pelvic cramping)",
     "understand.chip.irregularCycle": "ക്രമരഹിതമായ ആർത്തവം (Irregular cycle)",
@@ -898,7 +892,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "हे तुमचे सर्व जतन केलेले रेकॉर्ड कायमचे काढून टाकेल.",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "लक्षणे समजून घ्या",
     "understand.commonChipsLabel": "सामान्य संबंधित लक्षणे (जोडण्यासाठी क्लिक करा)",
     "understand.chip.pelvicCramping": "ओटीपोटात पेटके किंवा वेदना (Pelvic cramping)",
     "understand.chip.irregularCycle": "अनियमित मासिक पाळी (Irregular cycle)",
@@ -1032,7 +1025,6 @@ export const DICTIONARIES: Record<SupportedLocale, TranslationDictionary> = {
     "settings.confirmDeleteAll": "এটি আপনার সমস্ত সংরক্ষিত তথ্য স্থায়ীভাবে মুছে ফেলবে।",
 
     // Added comprehensive understanding & symptom keys
-    "nav.understand": "লক্ষণ বুঝুন",
     "understand.commonChipsLabel": "সাধারণ সম্পর্কিত লক্ষণ (যোগ করতে ক্লিক করুন)",
     "understand.chip.pelvicCramping": "তলপেটে তীব্র ব্যথা বা টান (Pelvic cramping)",
     "understand.chip.irregularCycle": "অনিয়মিত মাসিক চক্র (Irregular cycle)",

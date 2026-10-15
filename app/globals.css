@@ -4,24 +4,24 @@
 
 @layer base {
   :root {
-    --brand-plum: #34213d;
-    --brand-plum-dark: #24142b;
-    --brand-plum-light: #4c3358;
-    --brand-violet: #7963a8;
-    --brand-violet-light: #9d88c8;
+    --brand-plum: #281730;
+    --brand-plum-dark: #1b0d22;
+    --brand-plum-light: #442a52;
+    --brand-violet: #6b539c;
+    --brand-violet-light: #8e77bd;
     --brand-lavender: #f2eff8;
     --brand-lavender-subtle: #faf7fc;
     --brand-ivory: #fffdf9;
-    --brand-coral: #e98e83;
+    --brand-coral: #df7366;
     --brand-coral-light: #fbe6e3;
-    --brand-sage: #8ea187;
+    --brand-sage: #758c6e;
     --brand-sage-light: #e4ebe2;
-    --brand-text: #29252f;
-    --brand-text-muted: #6b6475;
-    --brand-border: #e6dfef;
+    --brand-text: #1d1522;
+    --brand-text-muted: #4e4558;
+    --brand-border: #dcd3e8;
     
     --background: #fffdf9;
-    --foreground: #29252f;
+    --foreground: #1d1522;
   }
 
   body {
@@ -320,11 +320,18 @@
 .clay-input {
   background: #faf7fc;
   border-radius: 16px;
-  border: 1px solid #e6dfef;
+  border: 1px solid #dcd3e8;
+  color: #1d1522;
+  font-weight: 500;
   box-shadow: 
     inset 2px 3px 6px rgba(52, 33, 61, 0.05),
     inset -2px -2px 5px rgba(255, 255, 255, 0.95);
   transition: all 0.2s ease;
+}
+
+.clay-input::placeholder {
+  color: #7d738a;
+  opacity: 0.9;
 }
 
 .clay-input:focus {
